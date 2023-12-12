@@ -1,13 +1,13 @@
 /* Your code here */
 ul {
     display: flex;
-    width: 750px;
+    width: 800px;
     flex-wrap: wrap;
 }
 li {
-    border: 5px solid black;
+    border: 5px solid rgb(235, 138, 3);
     width: 250px;
     height: 250px;
-    background-color: silver;
-
+    background-color: rgb(66, 66, 66);
+    list-style: none
 }
