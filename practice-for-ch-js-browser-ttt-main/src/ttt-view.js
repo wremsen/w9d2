@@ -11,14 +11,14 @@ class View {
 
     for (let row = 0; row < 3; row++) {
       for (let col = 0; col < 3; col++) {
-        let cell = document.createElement('li');
+        const cell = document.createElement('li');
         li.dataset.row = row
         li.dataset.col = col
 
         board.appendChild(cell);
       }
     }
-    this.appendChild(board);
+    this.el.appendChild(board);
   }
   
   handleClick(e) {
@@ -32,3 +32,4 @@ class View {
 }
 
 export default View;
+

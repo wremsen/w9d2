@@ -1,2 +1,13 @@
 /* Your code here */
+ul {
+    display: flex;
+    width: 750px;
+    flex-wrap: wrap;
+}
+li {
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: silver;
 
+}
