@@ -22,6 +22,9 @@ class View {
   }
   
   handleClick(e) {
+    // e.addEventListener("click", Game.prototype.playMove)
+    this.game.playMove(e.target.dataset())
+
   }
 
   makeMove(square) {

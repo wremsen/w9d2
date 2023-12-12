@@ -1,13 +1,26 @@
-/* Your code here */
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
 ul {
     display: flex;
     width: 800px;
     flex-wrap: wrap;
+    margin: auto;
 }
 li {
-    border: 5px solid rgb(235, 138, 3);
+    border: 5px solid rgb(27, 116, 18);
     width: 250px;
     height: 250px;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(80, 71, 71);
     list-style: none
+}
+
+li:hover {
+    background-color: rgb(218, 20, 20);
+}
+
+body{
+    background-color: rgb(215, 218, 250);
 }
